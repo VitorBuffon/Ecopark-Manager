@@ -1,0 +1,218 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Tempo\\EcoPark Manager\\EcoPark Manager\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D94AE1F3-8EAE-40BF-9A1D-0BDEF3B32BF8}|EcoPark Manager.csproj|C:\\Tempo\\EcoPark Manager\\EcoPark Manager\\model\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D94AE1F3-8EAE-40BF-9A1D-0BDEF3B32BF8}|EcoPark Manager.csproj|solutionrelative:model\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D94AE1F3-8EAE-40BF-9A1D-0BDEF3B32BF8}|EcoPark Manager.csproj|C:\\Tempo\\EcoPark Manager\\EcoPark Manager\\model\\estoque\\novamarca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D94AE1F3-8EAE-40BF-9A1D-0BDEF3B32BF8}|EcoPark Manager.csproj|solutionrelative:model\\estoque\\novamarca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D94AE1F3-8EAE-40BF-9A1D-0BDEF3B32BF8}|EcoPark Manager.csproj|C:\\Tempo\\EcoPark Manager\\EcoPark Manager\\model\\reservas\\reservas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D94AE1F3-8EAE-40BF-9A1D-0BDEF3B32BF8}|EcoPark Manager.csproj|solutionrelative:model\\reservas\\reservas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D94AE1F3-8EAE-40BF-9A1D-0BDEF3B32BF8}|EcoPark Manager.csproj|C:\\Tempo\\EcoPark Manager\\EcoPark Manager\\model\\estoque\\novofornecedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D94AE1F3-8EAE-40BF-9A1D-0BDEF3B32BF8}|EcoPark Manager.csproj|solutionrelative:model\\estoque\\novofornecedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D94AE1F3-8EAE-40BF-9A1D-0BDEF3B32BF8}|EcoPark Manager.csproj|C:\\Tempo\\EcoPark Manager\\EcoPark Manager\\model\\telainicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D94AE1F3-8EAE-40BF-9A1D-0BDEF3B32BF8}|EcoPark Manager.csproj|solutionrelative:model\\telainicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D94AE1F3-8EAE-40BF-9A1D-0BDEF3B32BF8}|EcoPark Manager.csproj|C:\\Tempo\\EcoPark Manager\\EcoPark Manager\\model\\vendas\\venda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D94AE1F3-8EAE-40BF-9A1D-0BDEF3B32BF8}|EcoPark Manager.csproj|solutionrelative:model\\vendas\\venda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D94AE1F3-8EAE-40BF-9A1D-0BDEF3B32BF8}|EcoPark Manager.csproj|c:\\tempo\\ecopark manager\\ecopark manager\\model\\alojamentos\\cadastroalojamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D94AE1F3-8EAE-40BF-9A1D-0BDEF3B32BF8}|EcoPark Manager.csproj|solutionrelative:model\\alojamentos\\cadastroalojamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D94AE1F3-8EAE-40BF-9A1D-0BDEF3B32BF8}|EcoPark Manager.csproj|C:\\Tempo\\EcoPark Manager\\EcoPark Manager\\model\\clientes\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D94AE1F3-8EAE-40BF-9A1D-0BDEF3B32BF8}|EcoPark Manager.csproj|solutionrelative:model\\clientes\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D94AE1F3-8EAE-40BF-9A1D-0BDEF3B32BF8}|EcoPark Manager.csproj|C:\\Tempo\\EcoPark Manager\\EcoPark Manager\\model\\estoque\\novacategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D94AE1F3-8EAE-40BF-9A1D-0BDEF3B32BF8}|EcoPark Manager.csproj|solutionrelative:model\\estoque\\novacategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D94AE1F3-8EAE-40BF-9A1D-0BDEF3B32BF8}|EcoPark Manager.csproj|C:\\Tempo\\EcoPark Manager\\EcoPark Manager\\model\\estoque\\estoques.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D94AE1F3-8EAE-40BF-9A1D-0BDEF3B32BF8}|EcoPark Manager.csproj|solutionrelative:model\\estoque\\estoques.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D94AE1F3-8EAE-40BF-9A1D-0BDEF3B32BF8}|EcoPark Manager.csproj|C:\\Tempo\\EcoPark Manager\\EcoPark Manager\\model\\funcionarios\\funcionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D94AE1F3-8EAE-40BF-9A1D-0BDEF3B32BF8}|EcoPark Manager.csproj|solutionrelative:model\\funcionarios\\funcionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D94AE1F3-8EAE-40BF-9A1D-0BDEF3B32BF8}|EcoPark Manager.csproj|C:\\Tempo\\EcoPark Manager\\EcoPark Manager\\model\\reservas\\novareserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D94AE1F3-8EAE-40BF-9A1D-0BDEF3B32BF8}|EcoPark Manager.csproj|solutionrelative:model\\reservas\\novareserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Venda.cs [Design]",
+              "DocumentMoniker": "C:\\Tempo\\EcoPark Manager\\EcoPark Manager\\Model\\Vendas\\Venda.cs",
+              "RelativeDocumentMoniker": "Model\\Vendas\\Venda.cs",
+              "ToolTip": "C:\\Tempo\\EcoPark Manager\\EcoPark Manager\\Model\\Vendas\\Venda.cs [Design]",
+              "RelativeToolTip": "Model\\Vendas\\Venda.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T13:14:05.362Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TelaInicial.cs [Design]",
+              "DocumentMoniker": "C:\\Tempo\\EcoPark Manager\\EcoPark Manager\\Model\\TelaInicial.cs",
+              "RelativeDocumentMoniker": "Model\\TelaInicial.cs",
+              "ToolTip": "C:\\Tempo\\EcoPark Manager\\EcoPark Manager\\Model\\TelaInicial.cs [Design]",
+              "RelativeToolTip": "Model\\TelaInicial.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T13:19:35.493Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Login.cs [Design]",
+              "DocumentMoniker": "C:\\Tempo\\EcoPark Manager\\EcoPark Manager\\Model\\Login.cs",
+              "RelativeDocumentMoniker": "Model\\Login.cs",
+              "ToolTip": "C:\\Tempo\\EcoPark Manager\\EcoPark Manager\\Model\\Login.cs [Design]",
+              "RelativeToolTip": "Model\\Login.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T13:06:10.845Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Reservas.cs [Design]",
+              "DocumentMoniker": "C:\\Tempo\\EcoPark Manager\\EcoPark Manager\\Model\\Reservas\\Reservas.cs",
+              "RelativeDocumentMoniker": "Model\\Reservas\\Reservas.cs",
+              "ToolTip": "C:\\Tempo\\EcoPark Manager\\EcoPark Manager\\Model\\Reservas\\Reservas.cs [Design]",
+              "RelativeToolTip": "Model\\Reservas\\Reservas.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T17:58:47.035Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "NovaReserva.cs [Design]",
+              "DocumentMoniker": "C:\\Tempo\\EcoPark Manager\\EcoPark Manager\\Model\\Reservas\\NovaReserva.cs",
+              "RelativeDocumentMoniker": "Model\\Reservas\\NovaReserva.cs",
+              "ToolTip": "C:\\Tempo\\EcoPark Manager\\EcoPark Manager\\Model\\Reservas\\NovaReserva.cs [Design]",
+              "RelativeToolTip": "Model\\Reservas\\NovaReserva.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T20:14:58.103Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Funcionario.cs [Design]",
+              "DocumentMoniker": "C:\\Tempo\\EcoPark Manager\\EcoPark Manager\\Model\\Funcionarios\\Funcionario.cs",
+              "RelativeDocumentMoniker": "Model\\Funcionarios\\Funcionario.cs",
+              "ToolTip": "C:\\Tempo\\EcoPark Manager\\EcoPark Manager\\Model\\Funcionarios\\Funcionario.cs [Design]",
+              "RelativeToolTip": "Model\\Funcionarios\\Funcionario.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T14:30:50.955Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Cliente.cs [Design]",
+              "DocumentMoniker": "C:\\Tempo\\EcoPark Manager\\EcoPark Manager\\Model\\Clientes\\Cliente.cs",
+              "RelativeDocumentMoniker": "Model\\Clientes\\Cliente.cs",
+              "ToolTip": "C:\\Tempo\\EcoPark Manager\\EcoPark Manager\\Model\\Clientes\\Cliente.cs [Design]",
+              "RelativeToolTip": "Model\\Clientes\\Cliente.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T13:24:06.147Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CadastroAlojamento.cs [Design]",
+              "DocumentMoniker": "C:\\Tempo\\EcoPark Manager\\EcoPark Manager\\Model\\Alojamentos\\CadastroAlojamento.cs",
+              "RelativeDocumentMoniker": "Model\\Alojamentos\\CadastroAlojamento.cs",
+              "ToolTip": "C:\\Tempo\\EcoPark Manager\\EcoPark Manager\\Model\\Alojamentos\\CadastroAlojamento.cs [Design]",
+              "RelativeToolTip": "Model\\Alojamentos\\CadastroAlojamento.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T14:40:19.796Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NovoFornecedor.cs [Design]",
+              "DocumentMoniker": "C:\\Tempo\\EcoPark Manager\\EcoPark Manager\\Model\\Estoque\\NovoFornecedor.cs",
+              "RelativeDocumentMoniker": "Model\\Estoque\\NovoFornecedor.cs",
+              "ToolTip": "C:\\Tempo\\EcoPark Manager\\EcoPark Manager\\Model\\Estoque\\NovoFornecedor.cs [Design]",
+              "RelativeToolTip": "Model\\Estoque\\NovoFornecedor.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T14:39:08.169Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NovaMarca.cs [Design]",
+              "DocumentMoniker": "C:\\Tempo\\EcoPark Manager\\EcoPark Manager\\Model\\Estoque\\NovaMarca.cs",
+              "RelativeDocumentMoniker": "Model\\Estoque\\NovaMarca.cs",
+              "ToolTip": "C:\\Tempo\\EcoPark Manager\\EcoPark Manager\\Model\\Estoque\\NovaMarca.cs [Design]",
+              "RelativeToolTip": "Model\\Estoque\\NovaMarca.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T14:38:17.873Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "NovaCategoria.cs [Design]",
+              "DocumentMoniker": "C:\\Tempo\\EcoPark Manager\\EcoPark Manager\\Model\\Estoque\\NovaCategoria.cs",
+              "RelativeDocumentMoniker": "Model\\Estoque\\NovaCategoria.cs",
+              "ToolTip": "C:\\Tempo\\EcoPark Manager\\EcoPark Manager\\Model\\Estoque\\NovaCategoria.cs [Design]",
+              "RelativeToolTip": "Model\\Estoque\\NovaCategoria.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T14:37:11.621Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Estoques.cs [Design]",
+              "DocumentMoniker": "C:\\Tempo\\EcoPark Manager\\EcoPark Manager\\Model\\Estoque\\Estoques.cs",
+              "RelativeDocumentMoniker": "Model\\Estoque\\Estoques.cs",
+              "ToolTip": "C:\\Tempo\\EcoPark Manager\\EcoPark Manager\\Model\\Estoque\\Estoques.cs [Design]",
+              "RelativeToolTip": "Model\\Estoque\\Estoques.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T14:32:50.319Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
