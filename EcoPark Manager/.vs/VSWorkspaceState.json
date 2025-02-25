@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Controller",
+    "\\Model",
+    "\\Model\\Alojamentos",
+    "\\Model\\Reservas"
+  ],
+  "SelectedNode": "\\Model\\Reservas\\NovaReserva.cs",
+  "PreviewInSolutionExplorer": false
+}

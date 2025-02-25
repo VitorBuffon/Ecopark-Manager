@@ -1,0 +1,342 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D94AE1F3-8EAE-40BF-9A1D-0BDEF3B32BF8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>EcoPark_Manager</RootNamespace>
+    <AssemblyName>EcoPark Manager</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="bancoProduto.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>bancoProduto.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Controller\Connection.cs" />
+    <Compile Include="Controller\controllerAlojamento.cs" />
+    <Compile Include="Controller\controllerCategoria.cs" />
+    <Compile Include="Controller\controllerCliente.cs" />
+    <Compile Include="Controller\controllerFornecedor.cs" />
+    <Compile Include="Controller\controllerFuncionario.cs" />
+    <Compile Include="Controller\controllerMarca.cs" />
+    <Compile Include="Controller\controllerProduto.cs" />
+    <Compile Include="Controller\controllerReserva.cs" />
+    <Compile Include="Controller\controllerVenda.cs" />
+    <Compile Include="ecoparkDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ecoparkDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ecoparkDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ecoparkDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ecoparkDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ecoparkDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Model\Alojamentos\CadastroAlojamento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Model\Alojamentos\CadastroAlojamento.Designer.cs">
+      <DependentUpon>CadastroAlojamento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Model\Clientes\Cliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Model\Clientes\Cliente.Designer.cs">
+      <DependentUpon>Cliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Model\Estoque\Estoques.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Model\Estoque\Estoques.Designer.cs">
+      <DependentUpon>Estoques.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Model\Estoque\NovaCategoria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Model\Estoque\NovaCategoria.Designer.cs">
+      <DependentUpon>NovaCategoria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Model\Estoque\NovaMarca.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Model\Estoque\NovaMarca.Designer.cs">
+      <DependentUpon>NovaMarca.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Model\Estoque\NovoFornecedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Model\Estoque\NovoFornecedor.Designer.cs">
+      <DependentUpon>NovoFornecedor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Model\Funcionarios\Funcionario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Model\Funcionarios\Funcionario.Designer.cs">
+      <DependentUpon>Funcionario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Model\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Model\Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Model\Reservas\NovaReserva.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Model\Reservas\NovaReserva.Designer.cs">
+      <DependentUpon>NovaReserva.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Model\Reservas\Reservas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Model\Reservas\Reservas.Designer.cs">
+      <DependentUpon>Reservas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Model\TelaInicial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Model\TelaInicial.Designer.cs">
+      <DependentUpon>TelaInicial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Model\Vendas\ItemPedido.cs" />
+    <Compile Include="Model\Vendas\Venda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Model\Vendas\Venda.Designer.cs">
+      <DependentUpon>Venda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Model\Alojamentos\CadastroAlojamento.resx">
+      <DependentUpon>CadastroAlojamento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Model\Clientes\Cliente.resx">
+      <DependentUpon>Cliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Model\Estoque\Estoques.resx">
+      <DependentUpon>Estoques.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Model\Estoque\NovaCategoria.resx">
+      <DependentUpon>NovaCategoria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Model\Estoque\NovaMarca.resx">
+      <DependentUpon>NovaMarca.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Model\Estoque\NovoFornecedor.resx">
+      <DependentUpon>NovoFornecedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Model\Funcionarios\Funcionario.resx">
+      <DependentUpon>Funcionario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Model\Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Model\Reservas\NovaReserva.resx">
+      <DependentUpon>NovaReserva.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Model\Reservas\Reservas.resx">
+      <DependentUpon>Reservas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Model\TelaInicial.resx">
+      <DependentUpon>TelaInicial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Model\Vendas\Venda.resx">
+      <DependentUpon>Venda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="bancoProduto.xsc">
+      <DependentUpon>bancoProduto.xsd</DependentUpon>
+    </None>
+    <None Include="bancoProduto.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>bancoProduto.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="bancoProduto.xss">
+      <DependentUpon>bancoProduto.xsd</DependentUpon>
+    </None>
+    <None Include="ecoparkDataSet.xsc">
+      <DependentUpon>ecoparkDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ecoparkDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ecoparkDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ecoparkDataSet.xss">
+      <DependentUpon>ecoparkDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ecoparkDataSet1.xsc">
+      <DependentUpon>ecoparkDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="ecoparkDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ecoparkDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ecoparkDataSet1.xss">
+      <DependentUpon>ecoparkDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="ecoparkDataSet2.xsc">
+      <DependentUpon>ecoparkDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="ecoparkDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ecoparkDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ecoparkDataSet2.xss">
+      <DependentUpon>ecoparkDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ad.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user_84308.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user_84308 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login_exit_icon_183808.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\category_icon_183800.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tick_square_checked_accepted_done_icon_183834.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home_house_icon_183822.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\work_briefcase_icon_183802.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buy_cart_icon_183797.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\document_file_text_icon_183798.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\profile_icon_183761.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tick_square_checked_accepted_done_icon_183834 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout_icon_183821.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login_exit_icon_183808 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plus_add_insert_icon_183799.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\content_save_edit_outline_icon_139725.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic-cancel_97589.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrowiosbackoutline_110927.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\report_file_icon_148347.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add_insert_new_plus_button_icon_142943.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\filtro %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\verificado.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancelar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\seta-esquerda.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\limpar-limpo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\salvar-arquivo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\publicar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\adicionar.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
